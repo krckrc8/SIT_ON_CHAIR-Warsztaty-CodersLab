@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 1055px;
+    width: 1055px;
     margin: 0 auto;
     padding-right: 6px;
     padding-left: 6px;
@@ -18,7 +18,7 @@ header {
 header p {
     float: left;
     line-height: 40px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
     letter-spacing: 1px;
@@ -26,7 +26,7 @@ header p {
 
 header span {
     color: #1ec1a2;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 header nav {
@@ -64,8 +64,6 @@ header ul.submenu::before {
     position: absolute;
 }
 
-
-
 header ul.submenu li {
     background-color: black;
     
@@ -83,16 +81,17 @@ header ul.submenu li {
 header nav a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 900;
+    letter-spacing: 1px;
     line-height: 40px;
     margin-left: 45px;
 }
 
-
-
 #jumbotron {
-    background-color: #e5d7d7;
+  background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(92,92,95,0) 44%, rgba(209,208,216,0.65) 100%);
+  background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(92,92,95,0) 44%, rgba(209,208,216,0.65) 100%);
+  background: linear-gradient(rgba(0,0,0,0) 0%, rgba(92,92,95,0) 44%, rgba(209,208,216,0.65) 100%);
 }
 
 #jumbotron .container {
@@ -103,18 +102,79 @@ header nav a {
     width: 50%;
     height: 100%;
     float:left;
+    text-align: center;
 }
 
 .jumbotron_img img {
-    width: 83%;
-    
+    width: 75%;
+    padding-top: 90px;
 }
 
 .jumbotron_aside {
     width: 50%;
     float:left;
     height: 100%;
+    text-align: center;
 }
+
+.jumbotron_aside h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-top: 144px;
+    
+}
+
+.jumbotron_aside span{
+    font-size: 30px;
+    font-weight: 900;
+    color: #1ec1a2;
+    
+}
+
+.jumbotron_aside p{
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    margin-top: 43px;
+    padding: 0 100px;
+    line-height: 17px;
+    
+}
+
+.jumbotron_aside a{
+    font-size: 17px;
+    color: white;
+    padding: 13px 44px;
+    background-color: #1ec1a2;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 38px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#products .container div {
+    width: 30%;
+    height: 255px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 5%;
+}
+
+#products .container div:first-child {
+    margin-left: 0;
+}
+
+.products_flower {
+    background-image: url('../images/box1_img.jpg');
+}
+
+
+
+
 
 
 
