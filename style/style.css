@@ -1,0 +1,39 @@
+body {
+    font-family: 'Raleway', Arial, Tahoma, sans-serif;
+    color: gray;
+}
+
+.container {
+    max-width: 1055px;
+    margin: 0 auto;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+header {
+    background-color: black;
+    height: 40px;
+}
+
+header p {
+    float: left;
+    line-height: 40px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header span {
+    color: #1ec1a2;
+    font-weight: 900;
+}
+
+header ul {
+    float: right;
+    line-height: 40px;
+}
+
+header li {
+    display: inline-block;
+}
