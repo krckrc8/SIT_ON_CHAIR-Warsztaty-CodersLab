@@ -29,11 +29,119 @@ header span {
     font-weight: 900;
 }
 
-header ul {
+header nav {
     float: right;
-    line-height: 40px;
 }
 
-header li {
+header nav ul.menu > li {
     display: inline-block;
+    position: relative;
 }
+
+header ul.submenu {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    padding-top: 10px;
+    display: none;
+}
+
+header .menu li:hover > ul {
+    display: inline-block; 
+}
+
+/*STRZAŁKA W GÓRĘ*/
+header ul.submenu::before {
+    content: " ";
+    border: 10px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    height: 0;
+    display: inline-block;
+    top: -10px;
+    left: 40px;
+    position: absolute;
+}
+
+
+
+header ul.submenu li {
+    background-color: black;
+    
+}
+
+.submenu a {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 24px
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-left: 45px;
+}
+
+
+
+#jumbotron {
+    background-color: #e5d7d7;
+}
+
+#jumbotron .container {
+    height: 504px;
+}
+
+.jumbotron_img {
+    width: 50%;
+    height: 100%;
+    float:left;
+}
+
+.jumbotron_img img {
+    width: 83%;
+    
+}
+
+.jumbotron_aside {
+    width: 50%;
+    float:left;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

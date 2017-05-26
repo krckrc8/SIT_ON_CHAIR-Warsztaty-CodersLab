@@ -5,10 +5,10 @@
     <title>Sit On Chair</title>
     
     <!-- reset -->
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
     
     <!-- style.css -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     
     <!-- font-family: 'Raleway', sans-serif; -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
@@ -16,17 +16,39 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container clearfix">
             <p>SIT <span>ON</span> CHAIR</p>
-            <ul>
-                <li>O FIRMIE</li>
-                <li>GALERIA</li>
-                <li>KONTAKT</li>
-            </ul>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">O FIRMIE</a>
+                        <ul class="submenu">
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GALERIA</a></li>
+                    <li><a href="#">KONTAKT</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <section id="jumbotron">
-        <div class="container"></div>
+        <div class="container clearfix">
+            <div class="jumbotron_img">
+                <img src="images/black_chair.png" alt="black chair">
+            </div>
+            <div class="jumbotron_aside">
+                <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+                <p>
+                    Irure voluptate et varias veniam, nescius noster aute an irure. Commodo lorem 
+                    nam eiusmod efflorescere o o duis anim cillum proident, velit in pariatur ubi 
+                    ipsum, ita non sunt tamen anim. Ullamco quae id consequat arbitrantur qui 
+                    excepteur ut multos.
+                </p>
+                <a href="#">ZOBACZ WIĘCEJ</a>
+            </div>
+        </div>
     </section>
     <section id="products">
         <div></div>
