@@ -10,6 +10,11 @@ body {
     padding-left: 6px;
 }
 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
 header {
     background-color: black;
     height: 40px;
@@ -88,6 +93,9 @@ header nav a {
     margin-left: 45px;
 }
 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------- JUMBOTRON ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #jumbotron {
   background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(92,92,95,0) 44%, rgba(209,208,216,0.65) 100%);
   background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(92,92,95,0) 44%, rgba(209,208,216,0.65) 100%);
@@ -156,6 +164,8 @@ header nav a {
     text-decoration: none;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------------- PRODUCTS 3 windows ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #products .container div {
     width: 31.7%;
     height: 255px;
@@ -222,6 +232,8 @@ header nav a {
     margin: 18px; 
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------------- CENNIK ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #prices {
     background-color: #f1f1f1;
 }
@@ -235,7 +247,11 @@ header nav a {
     display: inline-block;
     padding-bottom: 6px;
     margin-top: 48px;
+    float: left;
 }
+
+
+/*-----------------KARTA PLAN 1------------------------*/
 
 .plan1 {
     border: 2px solid #e2e2e2;
@@ -245,6 +261,8 @@ header nav a {
     background-color: #f9f9f9; 
     text-align: center;
     position: relative;
+    float: left;
+    margin-bottom: 66px;
 }
 
 .plan1 > p:first-child{
@@ -348,12 +366,261 @@ header nav a {
     margin-top: 13px;
 }
 
+/*-----------------KARTA PLAN 2------------------------*/
 
+.plan2 {
+    border: 2px solid #e2e2e2;
+    height: 500px;
+    width: 330px;
+    margin-top: 76px;
+    background-color: #f9f9f9; 
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-bottom: 66px;
+    margin-left: 26px;
+}
 
+.plan2 > p:first-child{
+    color:  #1ec1a2;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 32px;
+}
 
+.plan2 .prices_circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    text-align: center;
+    position: relative;
+    margin: 29px auto 0 auto;
+}
 
+.prices_circle div {
+    position: absolute;
+    top: 24%;
+    width: 100%;
+}
 
+.plan2 div p:first-child {
+    color: #bcbcbc;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 55px;
+    position: relative;
+}
 
+.plan2 div p:nth-of-type(2) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+}
+
+.plan2 div p:nth-of-type(3) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.plan2 .prices_list1 {
+    margin-top: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #e4e4e4;
+    color: #aaaaaa;
+}
+
+.plan2 .prices_list2 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan2 .prices_list3 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan2 a {
+    font-size: 16px;
+    color: white;
+    background-color:#1ec1a2;
+    text-decoration: none;
+    padding: 8px 28px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 68px;
+}
+
+.prices_decor1 {
+    width: 100%;
+    height: 58px;
+    top: -38px;
+    position: absolute;
+}
+
+.prices_decor2 {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%;
+    background-color: #f9f9f9; 
+}
+
+.prices_decor3 {
+    border: 2px solid #c2c2c2;
+    background-color: #c2c2c2; 
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+/*-----------------KARTA PLAN 3------------------------*/
+
+.plan3 {
+    border: 2px solid #e2e2e2;
+    height: 500px;
+    width: 330px;
+    margin-top: 76px;
+    background-color: #f9f9f9; 
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-bottom: 66px;
+    margin-left: 26px;
+}
+
+.plan3 > p:first-child{
+    color:  #1ec1a2;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.plan3 .prices_circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    text-align: center;
+    position: relative;
+    margin: 29px auto 0 auto;
+}
+
+.prices_circle div {
+    position: absolute;
+    top: 24%;
+    width: 100%;
+}
+
+.plan3 div p:first-child {
+    color: #bcbcbc;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 55px;
+    position: relative;
+}
+
+.plan3 div p:nth-of-type(2) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+}
+
+.plan3 div p:nth-of-type(3) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.plan3 .prices_list1 {
+    margin-top: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #e4e4e4;
+    color: #aaaaaa;
+}
+
+.plan3 .prices_list2 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan3 .prices_list3 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan3 .prices_list4 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan3 a {
+    font-size: 16px;
+    color: white;
+    background-color:#1ec1a2;
+    text-decoration: none;
+    padding: 8px 28px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 26px;
+}
+
+.prices_decor1 {
+    width: 100%;
+    height: 58px;
+    top: -38px;
+    position: absolute;
+}
+
+.prices_decor2 {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%;
+    background-color: #f9f9f9; 
+}
+
+.prices_decor3 {
+    border: 2px solid #c2c2c2;
+    background-color: #c2c2c2; 
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 13px;
+}
 
 
 
