@@ -157,11 +157,13 @@ header nav a {
 }
 
 #products .container div {
-    width: 30%;
+    width: 31.7%;
     height: 255px;
-    border: 1px solid red;
+    
     float: left;
-    margin-left: 5%;
+    margin-left: 25px;
+    margin-top: 28px;
+    margin-bottom: 96px;
 }
 
 #products .container div:first-child {
@@ -170,12 +172,181 @@ header nav a {
 
 .products_flower {
     background-image: url('../images/box1_img.jpg');
+    background-size: cover;
+    position: relative;
 }
 
+#products .container .products_descript {
+    background-color: rgba(255, 245, 245, 0.58);
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+}
 
+.products_descript p{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 7px solid #1ec1a2;
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-right: 5px;
+}
 
+.products_child {
+    background-image: url('../images/box2_img.jpg');
+    background-size: cover;
+    position: relative;    
+}
 
+.article1 {
+    border: 1px solid #e2e2e2;
+}
 
+#products h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 7px solid #1ec1a2;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-right: 24px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+#products p {
+    margin: 18px; 
+}
+
+#prices {
+    background-color: #f1f1f1;
+}
+
+#prices h1 {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    border-bottom: 7px solid #1ec1a2;
+    width: 320px;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-top: 48px;
+}
+
+.plan1 {
+    border: 2px solid #e2e2e2;
+    height: 500px;
+    width: 330px;
+    margin-top: 76px;
+    background-color: #f9f9f9; 
+    text-align: center;
+    position: relative;
+}
+
+.plan1 > p:first-child{
+    color:  #1ec1a2;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.plan1 .prices_circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    text-align: center;
+    position: relative;
+    margin: 29px auto 0 auto;
+}
+
+.prices_circle div {
+    position: absolute;
+    top: 24%;
+    width: 100%;
+}
+
+.plan1 div p:first-child {
+    color: #bcbcbc;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 55px;
+    position: relative;
+}
+
+.plan1 div p:nth-of-type(2) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+}
+
+.plan1 div p:nth-of-type(3) {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.plan1 .prices_list1 {
+    margin-top: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #e4e4e4;
+    color: #aaaaaa;
+}
+
+.plan1 .prices_list2 {
+    line-height: 42px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #f1f1f1;
+    color: #aaaaaa;
+}
+
+.plan1 a {
+    font-size: 16px;
+    color: white;
+    background-color:#1ec1a2;
+    text-decoration: none;
+    padding: 8px 28px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 110px;
+}
+
+.prices_decor1 {
+    width: 100%;
+    height: 58px;
+    top: -38px;
+    position: absolute;
+}
+
+.prices_decor2 {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%;
+    background-color: #f9f9f9; 
+}
+
+.prices_decor3 {
+    border: 2px solid #c2c2c2;
+    background-color: #c2c2c2; 
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 13px;
+}
 
 
 
