@@ -142,7 +142,7 @@ header nav a {
 }
 
 .jumbotron_aside p{
-    font-size: 10px;
+    font-size: 14px;
     color: gray;
     text-align: center;
     display: inline-block;
@@ -153,7 +153,7 @@ header nav a {
 }
 
 .jumbotron_aside a{
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     padding: 13px 44px;
     background-color: #1ec1a2;
@@ -373,7 +373,7 @@ header nav a {
     height: 500px;
     width: 330px;
     margin-top: 76px;
-    background-color: #f9f9f9; 
+    background-color: #1ec1a2; 
     text-align: center;
     position: relative;
     float: left;
@@ -382,7 +382,7 @@ header nav a {
 }
 
 .plan2 > p:first-child{
-    color:  #1ec1a2;
+    color:  white;
     font-size: 22px;
     font-weight: 500;
     margin-top: 32px;
@@ -392,10 +392,11 @@ header nav a {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 2px solid #e2e2e2;
+    /*border: 2px solid #e2e2e2;*/
     text-align: center;
     position: relative;
     margin: 29px auto 0 auto;
+    background-color: white;  
 }
 
 .prices_circle div {
@@ -405,7 +406,7 @@ header nav a {
 }
 
 .plan2 div p:first-child {
-    color: #bcbcbc;
+    color: #1ec1a2; 
     font-size: 40px;
     font-weight: 700;
     display: inline-block;
@@ -414,7 +415,7 @@ header nav a {
 }
 
 .plan2 div p:nth-of-type(2) {
-    color: #bcbcbc;
+    color: #1ec1a2; 
     font-size: 16px;
     font-weight: 700;
     display: inline-block;
@@ -422,7 +423,7 @@ header nav a {
 }
 
 .plan2 div p:nth-of-type(3) {
-    color: #bcbcbc;
+    color: #1ec1a2; 
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
@@ -433,7 +434,7 @@ header nav a {
     line-height: 42px;
     text-align: center;
     font-size: 21px;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     color: #aaaaaa;
 }
 
@@ -441,7 +442,7 @@ header nav a {
     line-height: 42px;
     text-align: center;
     font-size: 21px;
-    background-color: #f1f1f1;
+    background-color: #e4e4e4;
     color: #aaaaaa;
 }
 
@@ -455,8 +456,8 @@ header nav a {
 
 .plan2 a {
     font-size: 16px;
-    color: white;
-    background-color:#1ec1a2;
+    color: #1ec1a2; 
+    background-color: white;
     text-decoration: none;
     padding: 8px 28px;
     border-radius: 6px;
@@ -464,25 +465,25 @@ header nav a {
     margin-top: 68px;
 }
 
-.prices_decor1 {
+.plan2 .prices_decor1 {
     width: 100%;
     height: 58px;
     top: -38px;
     position: absolute;
 }
 
-.prices_decor2 {
+.plan2 .prices_decor2 {
     width: 58px;
     height: 58px;
     margin: 0 auto;
-    border: 2px solid #e2e2e2;
+    border: 2px solid  #1ec1a2;
     border-radius: 50%;
-    background-color: #f9f9f9; 
+    background-color: #1ec1a2;
 }
 
-.prices_decor3 {
-    border: 2px solid #c2c2c2;
-    background-color: #c2c2c2; 
+.plan2 .prices_decor3 {
+    border: 2px solid white;
+    background-color: white; 
     border-radius: 50%;
     width: 28px;
     height: 28px;
@@ -573,7 +574,7 @@ header nav a {
     line-height: 42px;
     text-align: center;
     font-size: 21px;
-    background-color: #f1f1f1;
+    background-color: #e4e4e4;
     color: #aaaaaa;
 }
 
@@ -622,12 +623,188 @@ header nav a {
     margin-top: 13px;
 }
 
+/*------HOVER------*/
+.plan1 a:hover {
+    font-size: 16px;
+    color: #1ec1a2;
+    background-color: #f9f9f9;
+}
+/*
+.plan1 a:hover div.plan1 {
+    background-color:  #1ec1a2;
+}*/
+
+.plan3 a:hover {
+    font-size: 16px;
+    color: #1ec1a2;
+    background-color: #f9f9f9;
+}
+/*
+.plan3 a:hover div.plan3 {
+    background-color:  #1ec1a2;
+}*/
+
+.plan2 a:hover {
+    font-size: 16px;
+    color: #f9f9f9;
+    background-color: #1ec1a2; 
+}
+/*
+.plan2 a:hover div.plan2 {
+    background-color:  #1ec1a2;
+}*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------KONTAKT-----------------------------------------------------------------------------------------------------*/
+
+#contact {
+    
+}
+
+#contact h1 {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    border-bottom: 7px solid #1ec1a2;
+    width: 320px;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-top: 48px;
+    float: left;
+}
+
+.form_left {
+    float: left;
+    width: 636px;
+}
+
+#firstname {
+    width: 100%;
+    border: 1px solid #1ec1a2;
+    font-size: 30px;
+    padding: 14px;
+    margin-top: 45px;
+}
+
+#email {
+    width: 100%;
+    border: 1px solid #1ec1a2;
+    font-size: 30px;
+    padding: 14px;
+    margin-top: 26px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 190px;
+    margin-top: 26px;
+    border: 1px solid #1ec1a2;
+    padding: 14px;
+}
+
+/*--------PLACEHOLDERY------------------*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 28px;
+    font-family:  'Raleway', Arial, Tahoma, sans-serif;
+    color: #f1f1f1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 28px;
+    font-family:  'Raleway', Arial, Tahoma, sans-serif;
+    color: #f1f1f1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 28px;
+    font-family:  'Raleway', Arial, Tahoma, sans-serif;
+    color: #f1f1f1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 28px;
+    font-family:  'Raleway', Arial, Tahoma, sans-serif;
+    color: #f1f1f1;
+}
 
 
 
+.form_right {
+    float: left;
+    width: 407px;
+    text-align: center;
+}
+
+.form_right_img {
+    margin-top: 10px;
+    text-align: center;
+}
+
+lebel {
+    display: inline-block;
+    width: 340px;
+    font-size: 18px;
+    margin-top: 35px;
+}
 
 
+[type="checkbox"] {
+    -webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #1ec1a2;
+	border-radius: 2px;
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 4px;
+    
+}
 
+[type="checkbox"]:checked {
+    background-color: #1ec1a2;
+}
+
+[type="submit"] {
+    width: 340px;
+    height: 70px;
+    background-color: #1ec1a2;
+    font-family: 'Raleway', Arial, Tahoma, sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------------------------------*/
+footer {
+    height: 166px;
+}
+
+
+footer p, .social, .footer_logo {
+    display: inline-block;
+}
+
+footer p:first-child {
+    line-height: 166px;
+}
+
+footer .social{
+    float: right;
+    height: 166px;
+    margin-right: 30px;
+}
+
+footer .social a{
+    line-height: 166px;
+    text-decoration: none;    
+}
+
+footer .footer_logo {
+    
+    float: right;
+    font-size: 16px;
+    margin-right: 80px;
+}
 
 
 
