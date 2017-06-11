@@ -183,6 +183,12 @@ header nav a {
     text-decoration: none;
 }
 
+.jumbotron_aside a:hover{
+    color: #1ec1a2;
+    background-color: #efefef;
+    border: 1px solid  #1ec1a2;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------- PRODUCTS 3 windows ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #products .container div {
@@ -650,6 +656,7 @@ header nav a {
     font-size: 16px;
     color: #1ec1a2;
     background-color: #f9f9f9;
+    border: 1px solid #1ec1a2;
 }
 /*
 .plan1 a:hover div.plan1 {
@@ -660,6 +667,7 @@ header nav a {
     font-size: 16px;
     color: #1ec1a2;
     background-color: #f9f9f9;
+    border: 1px solid #1ec1a2;
 }
 /*
 .plan3 a:hover div.plan3 {
@@ -670,6 +678,7 @@ header nav a {
     font-size: 16px;
     color: #f9f9f9;
     background-color: #1ec1a2; 
+    border: 1px solid #f9f9f9;
 }
 /*
 .plan2 a:hover div.plan2 {
