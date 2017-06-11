@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
    console.log('DOM');
     
-    //Znikanie opisow obrazków:
+    //Znikanie opisow obrazków:-----------------------------------------
+    
     var products_flower = document.querySelector('.products_flower');
     var products_descrip_flower = document.querySelector('.products_flower div');
     
@@ -46,8 +47,20 @@ document.addEventListener('DOMContentLoaded', function(){
         products_child.style.transition = '0.5s';
     });
     
+    //Wychodzace sub-menu O FIRMIE:----------------------------------------- 
+    var oFirmie = document.querySelector('.menu li:first-child');
+    var oFirmie_submenu = document.querySelector('.menu li > ul');
+    console.log(oFirmie);
+    console.log(oFirmie_submenu);
     
-    
+    oFirmie.addEventListener('mouseover', function(){
+        oFirmie_submenu.style.display='block';  
+        oFirmie_submenu.style.transition='2s';  
+    });
+    oFirmie.addEventListener('mouseout', function(){
+        oFirmie_submenu.style.display='none';    
+        oFirmie_submenu.style.transition='2s';    
+    });
     
     
     

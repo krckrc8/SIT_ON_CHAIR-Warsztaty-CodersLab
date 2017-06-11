@@ -51,9 +51,9 @@ header ul.submenu {
     display: none;
 }
 
-header .menu li:hover > ul {
+/*header .menu li:hover > ul {
     display: inline-block; 
-}
+}*/
 
 /*STRZAŁKA W GÓRĘ*/
 header ul.submenu::before {
