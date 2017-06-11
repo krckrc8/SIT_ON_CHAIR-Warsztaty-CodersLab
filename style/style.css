@@ -51,9 +51,7 @@ header ul.submenu {
     display: none;
 }
 
-/*header .menu li:hover > ul {
-    display: inline-block; 
-}*/
+
 
 /*STRZAŁKA W GÓRĘ*/
 header ul.submenu::before {
@@ -115,8 +113,17 @@ header nav a {
 }
 
 .jumbotron_img img {
-    width: 75%;
-    padding-top: 90px;
+    width: 350px;
+}
+
+.jumbotron_img li {
+    display: none;
+    padding-top: 130px;
+    padding-left: 90px;
+}
+
+.jumbotron_img .visible {
+    display: inline-block;
 }
 
 .jumbotron_img .jumbotron_prev{
