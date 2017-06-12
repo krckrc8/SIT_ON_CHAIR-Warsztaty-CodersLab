@@ -1,5 +1,5 @@
 # Warsztaty CodersLab 
-Stronka przykładowa, słóżąca do nauki.
+Stronka przykładowa, służąca do nauki.
 ## Strona www SIT ON CHAIR
 * Strona tworzona na podstawie pliku PSD.
 * Brak RWD.
