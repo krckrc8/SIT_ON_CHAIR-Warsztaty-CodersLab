@@ -1,5 +1,5 @@
 # Warsztaty CodersLab 
-Stronka przykładowa, służąca do nauki.
+Web site about selling chairs !
 ## Strona www SIT ON CHAIR
 ### DEMO: 
 https://krckrc8.github.io/SIT_ON_CHAIR-Warsztaty-CodersLab/
