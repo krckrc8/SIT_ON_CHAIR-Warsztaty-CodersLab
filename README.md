@@ -1,8 +1,11 @@
-# Warsztaty CodersLab 
+# Workshops CodersLab 
 Web site about selling chairs !
-## Strona www SIT ON CHAIR
+
+## Website SIT ON CHAIR
 ### DEMO: 
 https://krckrc8.github.io/SIT_ON_CHAIR-Warsztaty-CodersLab/
+
+Opis:
 * Strona tworzona na podstawie pliku PSD.
 * Brak RWD.
 * Funkcjonalności dodane za pomocą JavaScript.
